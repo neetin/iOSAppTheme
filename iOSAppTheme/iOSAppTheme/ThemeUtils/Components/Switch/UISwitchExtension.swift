@@ -1,0 +1,18 @@
+//
+//  UISwitch.swift
+//  Theme
+//
+//  Created by Prekshya Basnet on 1/27/17.
+//  Copyright © 2017 Prekshya Basnet. All rights reserved.
+//
+
+import UIKit
+
+extension UISwitch {
+  public func setOffSwitchStyle(offTintColor: UIColor) {
+    self.tintColor = offTintColor
+    self.layer.cornerRadius = 16
+    self.clipsToBounds = true
+    self.backgroundColor = offTintColor
+  }
+}
