@@ -23,6 +23,8 @@
 		B88BFBBA1E3F5863009C99B5 /* ThemeSky.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFBAD1E3F5863009C99B5 /* ThemeSky.swift */; };
 		B8923C601E39C75F00F33BC1 /* iOSAppTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8923C561E39C75F00F33BC1 /* iOSAppTheme.framework */; };
 		B8923C671E39C75F00F33BC1 /* iOSAppTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = B8923C591E39C75F00F33BC1 /* iOSAppTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B18D981E40795F0016A97B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B18D971E40795F0016A97B /* XCTest.framework */; };
+		B8B18D9A1E40796B0016A97B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B18D991E40796B0016A97B /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		B8923C591E39C75F00F33BC1 /* iOSAppTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSAppTheme.h; sourceTree = "<group>"; };
 		B8923C5A1E39C75F00F33BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8923C5F1E39C75F00F33BC1 /* iOSAppThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B18D971E40795F0016A97B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B8B18D991E40796B0016A97B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B18D9A1E40796B0016A97B /* UIKit.framework in Frameworks */,
+				B8B18D981E40795F0016A97B /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +203,7 @@
 				B8923C581E39C75F00F33BC1 /* iOSAppTheme */,
 				B87192651E4077B1002E7760 /* iOSAppThemeTests */,
 				B8923C571E39C75F00F33BC1 /* Products */,
+				B8B18D961E40795F0016A97B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,6 +224,15 @@
 				B8923C5A1E39C75F00F33BC1 /* Info.plist */,
 			);
 			path = iOSAppTheme;
+			sourceTree = "<group>";
+		};
+		B8B18D961E40795F0016A97B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8B18D991E40796B0016A97B /* UIKit.framework */,
+				B8B18D971E40795F0016A97B /* XCTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
