@@ -7,245 +7,208 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B88BFBAE1E3F5863009C99B5 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFB981E3F5863009C99B5 /* Button.swift */; };
-		B88BFBAF1E3F5863009C99B5 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFB991E3F5863009C99B5 /* ButtonExtension.swift */; };
-		B88BFBB01E3F5863009C99B5 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFB9B1E3F5863009C99B5 /* NavigationBar.swift */; };
-		B88BFBB11E3F5863009C99B5 /* SegmentedBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFB9D1E3F5863009C99B5 /* SegmentedBar.swift */; };
-		B88BFBB21E3F5863009C99B5 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFB9F1E3F5863009C99B5 /* Slider.swift */; };
-		B88BFBB31E3F5863009C99B5 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFBA11E3F5863009C99B5 /* Switch.swift */; };
-		B88BFBB41E3F5863009C99B5 /* UISwitchExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFBA21E3F5863009C99B5 /* UISwitchExtension.swift */; };
-		B88BFBB51E3F5863009C99B5 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFBA41E3F5863009C99B5 /* TabBar.swift */; };
-		B88BFBB61E3F5863009C99B5 /* Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFBA61E3F5863009C99B5 /* Tint.swift */; };
-		B88BFBB71E3F5863009C99B5 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFBA81E3F5863009C99B5 /* ColorExtension.swift */; };
-		B88BFBB81E3F5863009C99B5 /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFBAA1E3F5863009C99B5 /* protocol.swift */; };
-		B88BFBB91E3F5863009C99B5 /* CreateTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFBAC1E3F5863009C99B5 /* CreateTheme.swift */; };
-		B88BFBBA1E3F5863009C99B5 /* ThemeSky.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFBAD1E3F5863009C99B5 /* ThemeSky.swift */; };
-		B8923C601E39C75F00F33BC1 /* iOSAppTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8923C561E39C75F00F33BC1 /* iOSAppTheme.framework */; };
-		B8923C671E39C75F00F33BC1 /* iOSAppTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = B8923C591E39C75F00F33BC1 /* iOSAppTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8B18D981E40795F0016A97B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B18D971E40795F0016A97B /* XCTest.framework */; };
-		B8B18D9A1E40796B0016A97B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B18D991E40796B0016A97B /* UIKit.framework */; };
+		B883C1391E409FBF0014749B /* iOSAppTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = B883C1371E409FBF0014749B /* iOSAppTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B883C1581E40A01B0014749B /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1421E40A01A0014749B /* Button.swift */; };
+		B883C1591E40A01B0014749B /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1431E40A01A0014749B /* ButtonExtension.swift */; };
+		B883C15A1E40A01B0014749B /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1451E40A01A0014749B /* NavigationBar.swift */; };
+		B883C15B1E40A01B0014749B /* SegmentedBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1471E40A01A0014749B /* SegmentedBar.swift */; };
+		B883C15C1E40A01B0014749B /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1491E40A01A0014749B /* Slider.swift */; };
+		B883C15D1E40A01B0014749B /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C14B1E40A01A0014749B /* Switch.swift */; };
+		B883C15E1E40A01B0014749B /* UISwitchExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C14C1E40A01A0014749B /* UISwitchExtension.swift */; };
+		B883C15F1E40A01B0014749B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C14E1E40A01A0014749B /* TabBar.swift */; };
+		B883C1601E40A01B0014749B /* Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1501E40A01A0014749B /* Tint.swift */; };
+		B883C1611E40A01B0014749B /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1521E40A01B0014749B /* ColorExtension.swift */; };
+		B883C1621E40A01B0014749B /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1541E40A01B0014749B /* protocol.swift */; };
+		B883C1631E40A01B0014749B /* CreateTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1561E40A01B0014749B /* CreateTheme.swift */; };
+		B883C1641E40A01B0014749B /* ThemeSky.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1571E40A01B0014749B /* ThemeSky.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B8923C611E39C75F00F33BC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B8923C4D1E39C75E00F33BC1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B8923C551E39C75E00F33BC1;
-			remoteInfo = iOSAppTheme;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		B88BFB981E3F5863009C99B5 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		B88BFB991E3F5863009C99B5 /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
-		B88BFB9B1E3F5863009C99B5 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
-		B88BFB9D1E3F5863009C99B5 /* SegmentedBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedBar.swift; sourceTree = "<group>"; };
-		B88BFB9F1E3F5863009C99B5 /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
-		B88BFBA11E3F5863009C99B5 /* Switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
-		B88BFBA21E3F5863009C99B5 /* UISwitchExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISwitchExtension.swift; sourceTree = "<group>"; };
-		B88BFBA41E3F5863009C99B5 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
-		B88BFBA61E3F5863009C99B5 /* Tint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tint.swift; sourceTree = "<group>"; };
-		B88BFBA81E3F5863009C99B5 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		B88BFBAA1E3F5863009C99B5 /* protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
-		B88BFBAC1E3F5863009C99B5 /* CreateTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTheme.swift; sourceTree = "<group>"; };
-		B88BFBAD1E3F5863009C99B5 /* ThemeSky.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSky.swift; sourceTree = "<group>"; };
-		B8923C561E39C75F00F33BC1 /* iOSAppTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSAppTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8923C591E39C75F00F33BC1 /* iOSAppTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSAppTheme.h; sourceTree = "<group>"; };
-		B8923C5A1E39C75F00F33BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8923C5F1E39C75F00F33BC1 /* iOSAppThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8B18D971E40795F0016A97B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B8B18D991E40796B0016A97B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B883C1341E409FBF0014749B /* iOSAppTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSAppTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B883C1371E409FBF0014749B /* iOSAppTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSAppTheme.h; sourceTree = "<group>"; };
+		B883C1381E409FBF0014749B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B883C1421E40A01A0014749B /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		B883C1431E40A01A0014749B /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		B883C1451E40A01A0014749B /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		B883C1471E40A01A0014749B /* SegmentedBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedBar.swift; sourceTree = "<group>"; };
+		B883C1491E40A01A0014749B /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		B883C14B1E40A01A0014749B /* Switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		B883C14C1E40A01A0014749B /* UISwitchExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISwitchExtension.swift; sourceTree = "<group>"; };
+		B883C14E1E40A01A0014749B /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		B883C1501E40A01A0014749B /* Tint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tint.swift; sourceTree = "<group>"; };
+		B883C1521E40A01B0014749B /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		B883C1541E40A01B0014749B /* protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
+		B883C1561E40A01B0014749B /* CreateTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTheme.swift; sourceTree = "<group>"; };
+		B883C1571E40A01B0014749B /* ThemeSky.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSky.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B8923C521E39C75E00F33BC1 /* Frameworks */ = {
+		B883C1301E409FBF0014749B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B18D9A1E40796B0016A97B /* UIKit.framework in Frameworks */,
-				B8B18D981E40795F0016A97B /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8923C5C1E39C75F00F33BC1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8923C601E39C75F00F33BC1 /* iOSAppTheme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B88BFB601E3F51CF009C99B5 /* ThemeUtils */ = {
+		B883C12A1E409FBF0014749B = {
 			isa = PBXGroup;
 			children = (
-				B88BFBAB1E3F5863009C99B5 /* Themes */,
-				B88BFB961E3F5863009C99B5 /* Components */,
-				B88BFBA71E3F5863009C99B5 /* Extensions */,
-				B88BFBA91E3F5863009C99B5 /* Protocols */,
-			);
-			path = ThemeUtils;
-			sourceTree = "<group>";
-		};
-		B88BFB961E3F5863009C99B5 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				B88BFB971E3F5863009C99B5 /* Button */,
-				B88BFB9A1E3F5863009C99B5 /* Navigation */,
-				B88BFB9C1E3F5863009C99B5 /* SegmentedBar */,
-				B88BFB9E1E3F5863009C99B5 /* Slider */,
-				B88BFBA01E3F5863009C99B5 /* Switch */,
-				B88BFBA31E3F5863009C99B5 /* TabBar */,
-				B88BFBA51E3F5863009C99B5 /* Tint */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		B88BFB971E3F5863009C99B5 /* Button */ = {
-			isa = PBXGroup;
-			children = (
-				B88BFB981E3F5863009C99B5 /* Button.swift */,
-				B88BFB991E3F5863009C99B5 /* ButtonExtension.swift */,
-			);
-			path = Button;
-			sourceTree = "<group>";
-		};
-		B88BFB9A1E3F5863009C99B5 /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				B88BFB9B1E3F5863009C99B5 /* NavigationBar.swift */,
-			);
-			path = Navigation;
-			sourceTree = "<group>";
-		};
-		B88BFB9C1E3F5863009C99B5 /* SegmentedBar */ = {
-			isa = PBXGroup;
-			children = (
-				B88BFB9D1E3F5863009C99B5 /* SegmentedBar.swift */,
-			);
-			path = SegmentedBar;
-			sourceTree = "<group>";
-		};
-		B88BFB9E1E3F5863009C99B5 /* Slider */ = {
-			isa = PBXGroup;
-			children = (
-				B88BFB9F1E3F5863009C99B5 /* Slider.swift */,
-			);
-			path = Slider;
-			sourceTree = "<group>";
-		};
-		B88BFBA01E3F5863009C99B5 /* Switch */ = {
-			isa = PBXGroup;
-			children = (
-				B88BFBA11E3F5863009C99B5 /* Switch.swift */,
-				B88BFBA21E3F5863009C99B5 /* UISwitchExtension.swift */,
-			);
-			path = Switch;
-			sourceTree = "<group>";
-		};
-		B88BFBA31E3F5863009C99B5 /* TabBar */ = {
-			isa = PBXGroup;
-			children = (
-				B88BFBA41E3F5863009C99B5 /* TabBar.swift */,
-			);
-			path = TabBar;
-			sourceTree = "<group>";
-		};
-		B88BFBA51E3F5863009C99B5 /* Tint */ = {
-			isa = PBXGroup;
-			children = (
-				B88BFBA61E3F5863009C99B5 /* Tint.swift */,
-			);
-			path = Tint;
-			sourceTree = "<group>";
-		};
-		B88BFBA71E3F5863009C99B5 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				B88BFBA81E3F5863009C99B5 /* ColorExtension.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		B88BFBA91E3F5863009C99B5 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				B88BFBAA1E3F5863009C99B5 /* protocol.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		B88BFBAB1E3F5863009C99B5 /* Themes */ = {
-			isa = PBXGroup;
-			children = (
-				B88BFBAC1E3F5863009C99B5 /* CreateTheme.swift */,
-				B88BFBAD1E3F5863009C99B5 /* ThemeSky.swift */,
-			);
-			path = Themes;
-			sourceTree = "<group>";
-		};
-		B8923C4C1E39C75E00F33BC1 = {
-			isa = PBXGroup;
-			children = (
-				B8923C581E39C75F00F33BC1 /* iOSAppTheme */,
-				B8923C571E39C75F00F33BC1 /* Products */,
-				B8B18D961E40795F0016A97B /* Frameworks */,
+				B883C1361E409FBF0014749B /* iOSAppTheme */,
+				B883C1351E409FBF0014749B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B8923C571E39C75F00F33BC1 /* Products */ = {
+		B883C1351E409FBF0014749B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8923C561E39C75F00F33BC1 /* iOSAppTheme.framework */,
-				B8923C5F1E39C75F00F33BC1 /* iOSAppThemeTests.xctest */,
+				B883C1341E409FBF0014749B /* iOSAppTheme.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8923C581E39C75F00F33BC1 /* iOSAppTheme */ = {
+		B883C1361E409FBF0014749B /* iOSAppTheme */ = {
 			isa = PBXGroup;
 			children = (
-				B88BFB601E3F51CF009C99B5 /* ThemeUtils */,
-				B8923C591E39C75F00F33BC1 /* iOSAppTheme.h */,
-				B8923C5A1E39C75F00F33BC1 /* Info.plist */,
+				B883C13F1E40A01A0014749B /* ThemeUtils */,
+				B883C1371E409FBF0014749B /* iOSAppTheme.h */,
+				B883C1381E409FBF0014749B /* Info.plist */,
 			);
 			path = iOSAppTheme;
 			sourceTree = "<group>";
 		};
-		B8B18D961E40795F0016A97B /* Frameworks */ = {
+		B883C13F1E40A01A0014749B /* ThemeUtils */ = {
 			isa = PBXGroup;
 			children = (
-				B8B18D991E40796B0016A97B /* UIKit.framework */,
-				B8B18D971E40795F0016A97B /* XCTest.framework */,
+				B883C1401E40A01A0014749B /* Components */,
+				B883C1511E40A01B0014749B /* Extensions */,
+				B883C1531E40A01B0014749B /* Protocols */,
+				B883C1551E40A01B0014749B /* Themes */,
 			);
-			name = Frameworks;
+			path = ThemeUtils;
+			sourceTree = "<group>";
+		};
+		B883C1401E40A01A0014749B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B883C1411E40A01A0014749B /* Button */,
+				B883C1441E40A01A0014749B /* Navigation */,
+				B883C1461E40A01A0014749B /* SegmentedBar */,
+				B883C1481E40A01A0014749B /* Slider */,
+				B883C14A1E40A01A0014749B /* Switch */,
+				B883C14D1E40A01A0014749B /* TabBar */,
+				B883C14F1E40A01A0014749B /* Tint */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B883C1411E40A01A0014749B /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				B883C1421E40A01A0014749B /* Button.swift */,
+				B883C1431E40A01A0014749B /* ButtonExtension.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		B883C1441E40A01A0014749B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B883C1451E40A01A0014749B /* NavigationBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B883C1461E40A01A0014749B /* SegmentedBar */ = {
+			isa = PBXGroup;
+			children = (
+				B883C1471E40A01A0014749B /* SegmentedBar.swift */,
+			);
+			path = SegmentedBar;
+			sourceTree = "<group>";
+		};
+		B883C1481E40A01A0014749B /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				B883C1491E40A01A0014749B /* Slider.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		B883C14A1E40A01A0014749B /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				B883C14B1E40A01A0014749B /* Switch.swift */,
+				B883C14C1E40A01A0014749B /* UISwitchExtension.swift */,
+			);
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		B883C14D1E40A01A0014749B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B883C14E1E40A01A0014749B /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B883C14F1E40A01A0014749B /* Tint */ = {
+			isa = PBXGroup;
+			children = (
+				B883C1501E40A01A0014749B /* Tint.swift */,
+			);
+			path = Tint;
+			sourceTree = "<group>";
+		};
+		B883C1511E40A01B0014749B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B883C1521E40A01B0014749B /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B883C1531E40A01B0014749B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B883C1541E40A01B0014749B /* protocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B883C1551E40A01B0014749B /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				B883C1561E40A01B0014749B /* CreateTheme.swift */,
+				B883C1571E40A01B0014749B /* ThemeSky.swift */,
+			);
+			path = Themes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B8923C531E39C75E00F33BC1 /* Headers */ = {
+		B883C1311E409FBF0014749B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8923C671E39C75F00F33BC1 /* iOSAppTheme.h in Headers */,
+				B883C1391E409FBF0014749B /* iOSAppTheme.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B8923C551E39C75E00F33BC1 /* iOSAppTheme */ = {
+		B883C1331E409FBF0014749B /* iOSAppTheme */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8923C6A1E39C75F00F33BC1 /* Build configuration list for PBXNativeTarget "iOSAppTheme" */;
+			buildConfigurationList = B883C13C1E409FBF0014749B /* Build configuration list for PBXNativeTarget "iOSAppTheme" */;
 			buildPhases = (
-				B8923C511E39C75E00F33BC1 /* Sources */,
-				B8923C521E39C75E00F33BC1 /* Frameworks */,
-				B8923C531E39C75E00F33BC1 /* Headers */,
-				B8923C541E39C75E00F33BC1 /* Resources */,
+				B883C12F1E409FBF0014749B /* Sources */,
+				B883C1301E409FBF0014749B /* Frameworks */,
+				B883C1311E409FBF0014749B /* Headers */,
+				B883C1321E409FBF0014749B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -253,75 +216,43 @@
 			);
 			name = iOSAppTheme;
 			productName = iOSAppTheme;
-			productReference = B8923C561E39C75F00F33BC1 /* iOSAppTheme.framework */;
+			productReference = B883C1341E409FBF0014749B /* iOSAppTheme.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		B8923C5E1E39C75F00F33BC1 /* iOSAppThemeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B8923C6D1E39C75F00F33BC1 /* Build configuration list for PBXNativeTarget "iOSAppThemeTests" */;
-			buildPhases = (
-				B8923C5B1E39C75F00F33BC1 /* Sources */,
-				B8923C5C1E39C75F00F33BC1 /* Frameworks */,
-				B8923C5D1E39C75F00F33BC1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B8923C621E39C75F00F33BC1 /* PBXTargetDependency */,
-			);
-			name = iOSAppThemeTests;
-			productName = iOSAppThemeTests;
-			productReference = B8923C5F1E39C75F00F33BC1 /* iOSAppThemeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B8923C4D1E39C75E00F33BC1 /* Project object */ = {
+		B883C12B1E409FBF0014749B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Prekshya Basnet";
 				TargetAttributes = {
-					B8923C551E39C75E00F33BC1 = {
+					B883C1331E409FBF0014749B = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Automatic;
-					};
-					B8923C5E1E39C75F00F33BC1 = {
-						CreatedOnToolsVersion = 8.2;
-						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = B8923C501E39C75E00F33BC1 /* Build configuration list for PBXProject "iOSAppTheme" */;
+			buildConfigurationList = B883C12E1E409FBF0014749B /* Build configuration list for PBXProject "iOSAppTheme" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B8923C4C1E39C75E00F33BC1;
-			productRefGroup = B8923C571E39C75F00F33BC1 /* Products */;
+			mainGroup = B883C12A1E409FBF0014749B;
+			productRefGroup = B883C1351E409FBF0014749B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8923C551E39C75E00F33BC1 /* iOSAppTheme */,
-				B8923C5E1E39C75F00F33BC1 /* iOSAppThemeTests */,
+				B883C1331E409FBF0014749B /* iOSAppTheme */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B8923C541E39C75E00F33BC1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8923C5D1E39C75F00F33BC1 /* Resources */ = {
+		B883C1321E409FBF0014749B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,45 +262,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B8923C511E39C75E00F33BC1 /* Sources */ = {
+		B883C12F1E409FBF0014749B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88BFBAE1E3F5863009C99B5 /* Button.swift in Sources */,
-				B88BFBB41E3F5863009C99B5 /* UISwitchExtension.swift in Sources */,
-				B88BFBAF1E3F5863009C99B5 /* ButtonExtension.swift in Sources */,
-				B88BFBB51E3F5863009C99B5 /* TabBar.swift in Sources */,
-				B88BFBB11E3F5863009C99B5 /* SegmentedBar.swift in Sources */,
-				B88BFBB31E3F5863009C99B5 /* Switch.swift in Sources */,
-				B88BFBB61E3F5863009C99B5 /* Tint.swift in Sources */,
-				B88BFBB01E3F5863009C99B5 /* NavigationBar.swift in Sources */,
-				B88BFBB81E3F5863009C99B5 /* protocol.swift in Sources */,
-				B88BFBBA1E3F5863009C99B5 /* ThemeSky.swift in Sources */,
-				B88BFBB21E3F5863009C99B5 /* Slider.swift in Sources */,
-				B88BFBB71E3F5863009C99B5 /* ColorExtension.swift in Sources */,
-				B88BFBB91E3F5863009C99B5 /* CreateTheme.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8923C5B1E39C75F00F33BC1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B883C1581E40A01B0014749B /* Button.swift in Sources */,
+				B883C15E1E40A01B0014749B /* UISwitchExtension.swift in Sources */,
+				B883C1591E40A01B0014749B /* ButtonExtension.swift in Sources */,
+				B883C15F1E40A01B0014749B /* TabBar.swift in Sources */,
+				B883C15B1E40A01B0014749B /* SegmentedBar.swift in Sources */,
+				B883C15D1E40A01B0014749B /* Switch.swift in Sources */,
+				B883C1601E40A01B0014749B /* Tint.swift in Sources */,
+				B883C15A1E40A01B0014749B /* NavigationBar.swift in Sources */,
+				B883C1621E40A01B0014749B /* protocol.swift in Sources */,
+				B883C1641E40A01B0014749B /* ThemeSky.swift in Sources */,
+				B883C15C1E40A01B0014749B /* Slider.swift in Sources */,
+				B883C1611E40A01B0014749B /* ColorExtension.swift in Sources */,
+				B883C1631E40A01B0014749B /* CreateTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B8923C621E39C75F00F33BC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B8923C551E39C75E00F33BC1 /* iOSAppTheme */;
-			targetProxy = B8923C611E39C75F00F33BC1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		B8923C681E39C75F00F33BC1 /* Debug */ = {
+		B883C13A1E409FBF0014749B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -422,7 +338,7 @@
 			};
 			name = Debug;
 		};
-		B8923C691E39C75F00F33BC1 /* Release */ = {
+		B883C13B1E409FBF0014749B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -468,7 +384,7 @@
 			};
 			name = Release;
 		};
-		B8923C6B1E39C75F00F33BC1 /* Debug */ = {
+		B883C13D1E409FBF0014749B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -478,7 +394,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = iOSAppTheme/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3C.iOSAppTheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,7 +402,7 @@
 			};
 			name = Debug;
 		};
-		B8923C6C1E39C75F00F33BC1 /* Release */ = {
+		B883C13E1E409FBF0014749B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -497,38 +412,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = iOSAppTheme/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3C.iOSAppTheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		B8923C6E1E39C75F00F33BC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = iOSAppThemeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.3C.iOSAppThemeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		B8923C6F1E39C75F00F33BC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = iOSAppThemeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.3C.iOSAppThemeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -536,34 +423,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8923C501E39C75E00F33BC1 /* Build configuration list for PBXProject "iOSAppTheme" */ = {
+		B883C12E1E409FBF0014749B /* Build configuration list for PBXProject "iOSAppTheme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8923C681E39C75F00F33BC1 /* Debug */,
-				B8923C691E39C75F00F33BC1 /* Release */,
+				B883C13A1E409FBF0014749B /* Debug */,
+				B883C13B1E409FBF0014749B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8923C6A1E39C75F00F33BC1 /* Build configuration list for PBXNativeTarget "iOSAppTheme" */ = {
+		B883C13C1E409FBF0014749B /* Build configuration list for PBXNativeTarget "iOSAppTheme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8923C6B1E39C75F00F33BC1 /* Debug */,
-				B8923C6C1E39C75F00F33BC1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B8923C6D1E39C75F00F33BC1 /* Build configuration list for PBXNativeTarget "iOSAppThemeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B8923C6E1E39C75F00F33BC1 /* Debug */,
-				B8923C6F1E39C75F00F33BC1 /* Release */,
+				B883C13D1E409FBF0014749B /* Debug */,
+				B883C13E1E409FBF0014749B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B8923C4D1E39C75E00F33BC1 /* Project object */;
+	rootObject = B883C12B1E409FBF0014749B /* Project object */;
 }
