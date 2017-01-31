@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B87192671E4077B1002E7760 /* iOSAppThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87192661E4077B1002E7760 /* iOSAppThemeTests.swift */; };
 		B88BFBAE1E3F5863009C99B5 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFB981E3F5863009C99B5 /* Button.swift */; };
 		B88BFBAF1E3F5863009C99B5 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFB991E3F5863009C99B5 /* ButtonExtension.swift */; };
 		B88BFBB01E3F5863009C99B5 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BFB9B1E3F5863009C99B5 /* NavigationBar.swift */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B87192661E4077B1002E7760 /* iOSAppThemeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSAppThemeTests.swift; sourceTree = "<group>"; };
 		B88BFB981E3F5863009C99B5 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		B88BFB991E3F5863009C99B5 /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 		B88BFB9B1E3F5863009C99B5 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
@@ -81,14 +79,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B87192651E4077B1002E7760 /* iOSAppThemeTests */ = {
-			isa = PBXGroup;
-			children = (
-				B87192661E4077B1002E7760 /* iOSAppThemeTests.swift */,
-			);
-			path = iOSAppThemeTests;
-			sourceTree = SOURCE_ROOT;
-		};
 		B88BFB601E3F51CF009C99B5 /* ThemeUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				B8923C581E39C75F00F33BC1 /* iOSAppTheme */,
-				B87192651E4077B1002E7760 /* iOSAppThemeTests */,
 				B8923C571E39C75F00F33BC1 /* Products */,
 				B8B18D961E40795F0016A97B /* Frameworks */,
 			);
@@ -366,7 +355,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B87192671E4077B1002E7760 /* iOSAppThemeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
