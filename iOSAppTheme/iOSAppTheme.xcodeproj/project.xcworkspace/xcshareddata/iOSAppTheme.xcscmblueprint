@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "166E2781C516206F0F5F8D2DEF1769719A4295C4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "166E2781C516206F0F5F8D2DEF1769719A4295C4" : 9223372036854775807,
+    "35437E58CEA477B442667A45CA0DAAF68B67C7AD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1A64D6AE-0DB7-4B00-A691-EE03470E00E6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "166E2781C516206F0F5F8D2DEF1769719A4295C4" : "iOSAppTheme\/",
+    "35437E58CEA477B442667A45CA0DAAF68B67C7AD" : "iOSAppTheme\/iOSAppTheme\/Theme\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSAppTheme",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSAppTheme\/iOSAppTheme.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:neetin\/iOSAppTheme.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "166E2781C516206F0F5F8D2DEF1769719A4295C4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CocoaPods\/pod-template.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "35437E58CEA477B442667A45CA0DAAF68B67C7AD"
+    }
+  ]
+}
