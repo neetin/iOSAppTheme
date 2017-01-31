@@ -79,10 +79,10 @@
 		B88BFB601E3F51CF009C99B5 /* ThemeUtils */ = {
 			isa = PBXGroup;
 			children = (
+				B88BFBAB1E3F5863009C99B5 /* Themes */,
 				B88BFB961E3F5863009C99B5 /* Components */,
 				B88BFBA71E3F5863009C99B5 /* Extensions */,
 				B88BFBA91E3F5863009C99B5 /* Protocols */,
-				B88BFBAB1E3F5863009C99B5 /* Themes */,
 			);
 			path = ThemeUtils;
 			sourceTree = "<group>";
