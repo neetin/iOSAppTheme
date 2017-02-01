@@ -19,7 +19,7 @@
 		B883C1601E40A01B0014749B /* Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1501E40A01A0014749B /* Tint.swift */; };
 		B883C1611E40A01B0014749B /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1521E40A01B0014749B /* ColorExtension.swift */; };
 		B883C1621E40A01B0014749B /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1541E40A01B0014749B /* protocol.swift */; };
-		B883C1631E40A01B0014749B /* CreateTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1561E40A01B0014749B /* CreateTheme.swift */; };
+		B883C1631E40A01B0014749B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1561E40A01B0014749B /* Theme.swift */; };
 		B883C1641E40A01B0014749B /* ThemeSky.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1571E40A01B0014749B /* ThemeSky.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 		B883C1501E40A01A0014749B /* Tint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tint.swift; sourceTree = "<group>"; };
 		B883C1521E40A01B0014749B /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		B883C1541E40A01B0014749B /* protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
-		B883C1561E40A01B0014749B /* CreateTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTheme.swift; sourceTree = "<group>"; };
+		B883C1561E40A01B0014749B /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		B883C1571E40A01B0014749B /* ThemeSky.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSky.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,7 +181,7 @@
 		B883C1551E40A01B0014749B /* Themes */ = {
 			isa = PBXGroup;
 			children = (
-				B883C1561E40A01B0014749B /* CreateTheme.swift */,
+				B883C1561E40A01B0014749B /* Theme.swift */,
 				B883C1571E40A01B0014749B /* ThemeSky.swift */,
 			);
 			path = Themes;
@@ -278,7 +278,7 @@
 				B883C1641E40A01B0014749B /* ThemeSky.swift in Sources */,
 				B883C15C1E40A01B0014749B /* Slider.swift in Sources */,
 				B883C1611E40A01B0014749B /* ColorExtension.swift in Sources */,
-				B883C1631E40A01B0014749B /* CreateTheme.swift in Sources */,
+				B883C1631E40A01B0014749B /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +394,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = iOSAppTheme/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3C.iOSAppTheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +413,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = iOSAppTheme/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3C.iOSAppTheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";

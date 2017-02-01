@@ -28,17 +28,20 @@ public class Theme {
     tabBar.setTabBarStyle()
   }
   
-  enum Default {
-    case ThemeSky
-    func set() {
+  public enum Default {
+    case Sky
+    case Navy
+    public func set() {
       switch self {
-      case .ThemeSky:
-        ThemeBlueSky.setSkyTheme()
-      default: break
+      case .Sky:
+        ThemeSky.set()
+      case .Navy:
+        ThemeNavy.set()
       }
     }
   }
-
 }
+
+
 
 
