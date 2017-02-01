@@ -8,15 +8,37 @@
 
 import UIKit
 
-public class CreateTheme {
+public class Theme {
+  public static func setThemewithColors(navigationBackground: UIColor, buttonBackground: UIColor, tintColor: UIColor) {
+    let nav = NavigationBar(backgroundColor: navigationBackground)
+    let button = Button(backgroundColor: buttonBackground)
+    let tint = Tint(tintColor: tintColor)
+    let uiSwitch = Switch(onTintColor: navigationBackground, tintColor: navigationBackground)
+    let segmentedBar = SegmentedBar(tintColor: navigationBackground)
+    let tabBar = TabBar(backgroundColor: nil, tintColor: navigationBackground)
+    createTheme(tint: tint, nav: nav, button: button, switche: uiSwitch, segmentedBar: segmentedBar, tabBar: tabBar)
+  }
+  
   public static func createTheme(tint: Tint, nav: NavigationBar, button: Button, switche: Switch, segmentedBar: SegmentedBar, tabBar: TabBar) {
     tint.setTintColor()
     nav.setNavigationStyle()
     button.setButtonStyle()
     switche.setOnSwitchStyle()
     segmentedBar.setSegmentedBarStyle()
-    //tabBar.setTabBarStyle()
+    tabBar.setTabBarStyle()
   }
+  
+  enum Default {
+    case ThemeSky
+    func set() {
+      switch self {
+      case .ThemeSky:
+        ThemeBlueSky.setSkyTheme()
+      default: break
+      }
+    }
+  }
+
 }
 
 

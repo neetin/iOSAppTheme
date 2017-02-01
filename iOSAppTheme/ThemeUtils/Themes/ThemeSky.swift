@@ -12,7 +12,7 @@ struct ThemeSkyColor {
   
 }
 
-public class ThemeSky {
+public class ThemeBlueSky {
   public static func setSkyTheme() {
     let nav = NavigationBar(backgroundColor: Navigation.barBackground)
     //nav.setNavigationStyle()
@@ -22,12 +22,12 @@ public class ThemeSky {
     let uiSwitch = Switch(onTintColor: Navigation.barBackground, tintColor: UIColor.red)
     let segmentedBar = SegmentedBar(tintColor: Navigation.barBackground)
     let tabBar = TabBar(backgroundColor: nil, tintColor: TabBars.tintColor)
-    CreateTheme.createTheme(tint: tint, nav: nav, button: button, switche: uiSwitch, segmentedBar: segmentedBar, tabBar: tabBar)
+    Theme.createTheme(tint: tint, nav: nav, button: button, switche: uiSwitch, segmentedBar: segmentedBar, tabBar: tabBar)
   
   }
 }
 
-extension ThemeSky {
+extension ThemeBlueSky {
   struct Navigation {
     static let barBackground = UIColor(hex:"112845")
     static let titleColor = UIColor.white
