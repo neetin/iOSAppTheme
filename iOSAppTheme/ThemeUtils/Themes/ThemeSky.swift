@@ -4,7 +4,7 @@
 //
 //  Created by Prekshya Basnet on 1/26/17.
 //  Copyright © 2017 Three Callistos Services. All rights reserved.
-//
+//  Licensed under GPL-2.0
 
 import UIKit
 
@@ -42,4 +42,3 @@ struct ThemeColors {
     static var tintColor = Navigation.barBackground
   }
 }
-  

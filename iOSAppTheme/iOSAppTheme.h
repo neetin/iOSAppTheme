@@ -16,5 +16,3 @@ FOUNDATION_EXPORT double iOSAppThemeVersionNumber;
 FOUNDATION_EXPORT const unsigned char iOSAppThemeVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <iOSAppTheme/PublicHeader.h>
-
-

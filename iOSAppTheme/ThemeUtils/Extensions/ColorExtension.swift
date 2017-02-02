@@ -1,9 +1,6 @@
 //
 //  ColorExtension.swift
-//  EventKtm
-//
-//  Created by Neetin Sharma on 5/24/16.
-//  Copyright © 2016 3callistos. All rights reserved.
+//  Theme
 //
 
 import UIKit

@@ -4,7 +4,7 @@
 //
 //  Created by Prekshya Basnet on 1/30/17.
 //  Copyright © 2017 Three Callistos Services. All rights reserved.
-//
+//  Licensed under GPL-2.0
 
 import UIKit
 
@@ -20,5 +20,3 @@ extension SegmentedBar: StyleSegmentedBar {
     UISegmentedControl.appearance().tintColor  = tintColor
   }
 }
-
-
