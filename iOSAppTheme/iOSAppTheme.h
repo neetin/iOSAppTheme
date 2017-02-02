@@ -3,7 +3,8 @@
 //  iOSAppTheme
 //
 //  Created by Prekshya Basnet on 1/31/17.
-//  Copyright © 2017 Prekshya Basnet. All rights reserved.
+//  Copyright © 2017 Three Callistos Services. All rights reserved.
+//  Licensed under GPL-2.0
 //
 
 #import <UIKit/UIKit.h>
