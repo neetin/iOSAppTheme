@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B880AD3B1E44724300528435 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B880AD3A1E44724300528435 /* UILabelExtension.swift */; };
+		B880AD3D1E4472F900528435 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = B880AD3C1E4472F900528435 /* Label.swift */; };
 		B883C1391E409FBF0014749B /* iOSAppTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = B883C1371E409FBF0014749B /* iOSAppTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B883C1581E40A01B0014749B /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1421E40A01A0014749B /* Button.swift */; };
 		B883C1591E40A01B0014749B /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883C1431E40A01A0014749B /* ButtonExtension.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B880AD3A1E44724300528435 /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		B880AD3C1E4472F900528435 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		B883C1341E409FBF0014749B /* iOSAppTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSAppTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B883C1371E409FBF0014749B /* iOSAppTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSAppTheme.h; sourceTree = "<group>"; };
 		B883C1381E409FBF0014749B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B880AD391E44723100528435 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				B880AD3A1E44724300528435 /* UILabelExtension.swift */,
+				B880AD3C1E4472F900528435 /* Label.swift */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
 		B883C12A1E409FBF0014749B = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +106,7 @@
 		B883C1401E40A01A0014749B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B880AD391E44723100528435 /* Label */,
 				B883C1411E40A01A0014749B /* Button */,
 				B883C1441E40A01A0014749B /* Navigation */,
 				B883C1461E40A01A0014749B /* SegmentedBar */,
@@ -270,9 +284,11 @@
 				B883C15E1E40A01B0014749B /* UISwitchExtension.swift in Sources */,
 				B883C1591E40A01B0014749B /* ButtonExtension.swift in Sources */,
 				B883C15F1E40A01B0014749B /* TabBar.swift in Sources */,
+				B880AD3B1E44724300528435 /* UILabelExtension.swift in Sources */,
 				B883C15B1E40A01B0014749B /* SegmentedBar.swift in Sources */,
 				B883C15D1E40A01B0014749B /* Switch.swift in Sources */,
 				B883C1601E40A01B0014749B /* Tint.swift in Sources */,
+				B880AD3D1E4472F900528435 /* Label.swift in Sources */,
 				B883C15A1E40A01B0014749B /* NavigationBar.swift in Sources */,
 				B883C1621E40A01B0014749B /* protocol.swift in Sources */,
 				B883C1641E40A01B0014749B /* ThemeSky.swift in Sources */,

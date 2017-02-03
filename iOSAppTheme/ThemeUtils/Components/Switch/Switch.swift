@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Configure and define styles of UISwitch
 public struct Switch {
   fileprivate var onTintColor: UIColor?
   fileprivate var tintColor: UIColor?
@@ -18,6 +19,7 @@ public struct Switch {
 }
 
 extension Switch: StyleSwitch {
+  /// Sets onTintColor for UISwitch appearance
   public func setOnSwitchStyle() {
     UISwitch.appearance().onTintColor = onTintColor
     UISwitch.appearance().tintColor = tintColor

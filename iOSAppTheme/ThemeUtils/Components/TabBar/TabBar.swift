@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Configures and styles UITabBar
 public struct TabBar {
   fileprivate var backgroundColor: UIColor?
   fileprivate var tintColor: UIColor?
@@ -18,6 +19,7 @@ public struct TabBar {
 }
 
 extension TabBar: StyleTabBar {
+  /// Sets the background color and tintColor of UITabBar appearance
   public func setTabBarStyle() {
     UITabBar.appearance().backgroundColor = backgroundColor
     UITabBar.appearance().tintColor = tintColor

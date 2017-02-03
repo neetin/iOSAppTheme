@@ -9,6 +9,7 @@
 import UIKit
 
 extension UIButton {
+  /// Sets rounded corners of UIButton instance
   public func setRoundedButton(cornerRadius: CGFloat) {
     self.layer.cornerRadius = cornerRadius
     self.clipsToBounds = true

@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// A custom theme for light orange buttons with navy navigation background
 public struct ThemeNavy {
   public static func set() {
     ThemeColors.Buttons.background = UIColor(hex: "C16632")
@@ -15,6 +16,7 @@ public struct ThemeNavy {
   }
 }
 
+/// A custom theme for light blue buttons with navy navigation background
 public struct ThemeSky {
   public static func set() {
     let nav = NavigationBar(backgroundColor: ThemeColors.Navigation.barBackground)
@@ -30,14 +32,18 @@ public struct ThemeSky {
   }
 }
 
+/// Pre-defined colors for theme
 struct ThemeColors {
+  /// Colors for UINavigation
   struct Navigation {
     static var barBackground = UIColor(hex:"112845")
     static var titleColor = UIColor.white
   }
+  /// Colors for UIButtons
   struct Buttons {
     static var background = UIColor(hex:"27A3C4")
   }
+  /// Colors for TabBar
   struct TabBars {
     static var tintColor = Navigation.barBackground
   }

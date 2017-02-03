@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Configure and defines styles for UINavigation appearance
 public struct NavigationBar {
   fileprivate var backgroundColor: UIColor?
   fileprivate var titleColor: UIColor?
@@ -33,21 +34,23 @@ public struct NavigationBar {
 }
 
 extension NavigationBar: StyleNavigationBar {
+  /// Sets background Color, tintColor and titleColor of UINavigationBar appearance
   public func setNavigationStyle() {
     setNavigationBackgroundStyle()
     setNavigationTintStyle()
     setNavigationTitleStyle()
   }
   
+  /// Sets titleColor of UINavigationBar appearance
   public func setNavigationTitleStyle() {
     UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: titleColor ?? UIColor.white]
   }
-  
+ /// Set background Color of UINavigationBar appearance
  public func setNavigationBackgroundStyle() {
     UINavigationBar.appearance().barTintColor = backgroundColor
     UINavigationBar.appearance().isTranslucent = false
   }
-  
+  /// Set tintColor of UINavigationBar appearance
  public func setNavigationTintStyle() {
     UINavigationBar.appearance().tintColor = tintColor ?? UIColor.white
   }

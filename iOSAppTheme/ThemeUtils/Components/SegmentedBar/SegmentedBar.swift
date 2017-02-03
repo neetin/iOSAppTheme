@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Configures and defines style for UISegmentedController
 public struct SegmentedBar {
   fileprivate var tintColor = UIColor.white
   public init(tintColor: UIColor) {
@@ -16,6 +17,7 @@ public struct SegmentedBar {
 }
 
 extension SegmentedBar: StyleSegmentedBar {
+  /// Sets tintColor of UISegmentedBar appearance
   public func setSegmentedBarStyle() {
     UISegmentedControl.appearance().tintColor  = tintColor
   }

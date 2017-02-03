@@ -9,6 +9,7 @@
 import UIKit
 
 extension UISwitch {
+  /// Sets the color of the switch with offTintColor background
   public func setOffSwitchStyle(offTintColor: UIColor) {
     self.tintColor = offTintColor
     self.layer.cornerRadius = 16

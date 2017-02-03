@@ -32,6 +32,7 @@ public struct Button {
 }
 
 extension Button: StyleButton {
+// Set background Color and tintColor of UINavigationBar appearance
  public func setButtonStyle() {
     UIButton.appearance().backgroundColor = backgroundColor
     UIButton.appearance().tintColor = self.tintColor
