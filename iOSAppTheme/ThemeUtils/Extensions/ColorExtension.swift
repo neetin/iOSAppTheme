@@ -5,6 +5,7 @@
 
 import UIKit
 
+/// Extension for hex compatibility
 extension UIColor {
   convenience init(hex: String) {
     var red:   CGFloat = 0.0

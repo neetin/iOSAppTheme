@@ -27,8 +27,7 @@ public struct ThemeSky {
     let uiSwitch = Switch(onTintColor: ThemeColors.Navigation.barBackground, tintColor: UIColor.red)
     let segmentedBar = SegmentedBar(tintColor: ThemeColors.Navigation.barBackground)
     let tabBar = TabBar(backgroundColor: nil, tintColor: ThemeColors.TabBars.tintColor)
-    Theme.createTheme(tint: tint, nav: nav, button: button, switche: uiSwitch, segmentedBar: segmentedBar, tabBar: tabBar)
-  
+    Theme.createTheme(tint: tint, nav: nav, button: button, switche: uiSwitch, segmentedBar: segmentedBar, tabBar: tabBar)  
   }
 }
 

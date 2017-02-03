@@ -8,7 +8,7 @@
 
 import UIKit
 extension UILabel {
-  
+  /// Set font by String
   var fontName : String {
     get { return self.font.fontName }
     set {
@@ -18,10 +18,12 @@ extension UILabel {
     }
   }
   
+  /// Set Font by UIFont
   public func setFont(font: UIFont) {
     self.font = font
   }
   
+  /// Set LabelTextColor
   public func setTextColor(textColor: UIColor) {
     self.textColor = textColor
   }
