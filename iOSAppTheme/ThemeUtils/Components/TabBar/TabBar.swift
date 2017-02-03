@@ -12,6 +12,7 @@ import UIKit
 public struct TabBar {
   fileprivate var backgroundColor: UIColor?
   fileprivate var tintColor: UIColor?
+  
   public init(backgroundColor: UIColor?, tintColor: UIColor?) {
     self.backgroundColor = backgroundColor
     self.tintColor = tintColor

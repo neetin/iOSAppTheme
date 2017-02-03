@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Configure and defines styles for UIButton appearance
 public struct Button {
   fileprivate var backgroundColor: UIColor?
   fileprivate var tintColor: UIColor?

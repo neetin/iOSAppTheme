@@ -46,14 +46,14 @@ extension NavigationBar: StyleNavigationBar {
     UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: titleColor ?? UIColor.white]
   }
   
- /// Set background Color of UINavigationBar appearance
- public func setNavigationBackgroundStyle() {
+  /// Set background Color of UINavigationBar appearance
+  public func setNavigationBackgroundStyle() {
     UINavigationBar.appearance().barTintColor = backgroundColor
     UINavigationBar.appearance().isTranslucent = false
   }
   
   /// Set tintColor of UINavigationBar appearance
- public func setNavigationTintStyle() {
+  public func setNavigationTintStyle() {
     UINavigationBar.appearance().tintColor = tintColor ?? UIColor.white
   }
 }

@@ -11,6 +11,7 @@ import UIKit
 /// Configure TintColor and set tint color
 public struct Tint {
   fileprivate var tintColor = UIColor.white
+  
   public init(tintColor: UIColor) {
     self.tintColor = tintColor
   }

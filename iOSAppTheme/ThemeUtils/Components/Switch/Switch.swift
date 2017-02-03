@@ -12,6 +12,7 @@ import UIKit
 public struct Switch {
   fileprivate var onTintColor: UIColor?
   fileprivate var tintColor: UIColor?
+  
   public init(onTintColor: UIColor?, tintColor: UIColor?) {
     self.onTintColor = onTintColor
     self.tintColor = tintColor

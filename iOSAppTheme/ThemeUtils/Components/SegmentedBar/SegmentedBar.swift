@@ -11,6 +11,7 @@ import UIKit
 /// Configures and defines style for UISegmentedController
 public struct SegmentedBar {
   fileprivate var tintColor = UIColor.white
+  
   public init(tintColor: UIColor) {
     self.tintColor = tintColor
   }
